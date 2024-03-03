@@ -1,0 +1,38 @@
+/* Define color variables */
+:root {
+  --light: #cad2c5;
+  --med-light: #84a98c;
+  --medium: #52796f;
+  --med-dark: #354f52;
+  --dark: #2f3e46;
+}
+
+/* Style for the header container */
+header {
+  position: relative;
+  background: url('../assets/image/board.jpg') center/cover;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px; 
+}
+
+/* Style for the h1 (my name) in the header */
+h1 {
+  color: var(--med-dark); 
+  margin-right: auto; 
+  font-size: 1.5rem; 
+}
+
+/* Style for the navigation links */
+nav {
+  display: flex;
+}
+
+/* Style for each individual link in the navigation */
+nav a {
+  color: var(--med-dark); 
+  text-decoration: none; 
+  margin-right: 20px; 
+  font-size: 1rem; 
+}
