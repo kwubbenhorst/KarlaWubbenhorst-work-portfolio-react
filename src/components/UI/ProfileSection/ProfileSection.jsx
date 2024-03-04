@@ -4,7 +4,7 @@ const ProfileSection = () => {
   return (
     <div>
       <h2>About Me</h2>
-      <img src="src/assets/images/karla1.png" alt="Head and shoulders profile picture of Karla Wubbenhorst" />
+      <img src="src/assets/images/karla8.png" alt="Head profile picture of Karla Wubbenhorst" />
       <p>
         Full stack development is quite a career swerve from what I was doing before: pastoral ministry.
         During my 10 years of post-secondary education in classics and divinity, my 4 years of university teaching

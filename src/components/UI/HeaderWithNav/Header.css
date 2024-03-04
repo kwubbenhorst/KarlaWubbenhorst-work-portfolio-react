@@ -1,38 +1,48 @@
-/* Define color variables */
-:root {
-  --light: #cad2c5;
-  --med-light: #84a98c;
-  --medium: #52796f;
-  --med-dark: #354f52;
-  --dark: #2f3e46;
-}
+/* Import global.css where color and font variables are defined */
+@import '../../../global.css';
 
 /* Style for the header container */
 header {
   position: relative;
-  background: url('../assets/image/board.jpg') center/cover;
-  height: 90px;
+  background: url('../../../assets/images/succulent.jpg') center/cover;
+  height: 300px;
+  width: 100%;
   display: flex;
+  align-items: flex-start; 
+  border-bottom: 15px solid var(--med-light);
+}
+
+/* Container for name and navigation links */
+div.header-container {
+  background-color: var(--med-dark);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  padding: 0 20px; 
+  height: 70px;
+  border-bottom: 15px solid var(--medium);
 }
 
 /* Style for the h1 (my name) in the header */
 h1 {
-  color: var(--med-dark); 
+  color: var(--med-light);
+  margin-left: 50px; 
   margin-right: auto; 
-  font-size: 1.5rem; 
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  padding-bottom: 15px; 
 }
 
 /* Style for the navigation links */
 nav {
-  display: flex;
+  display: flex; 
 }
 
 /* Style for each individual link in the navigation */
 nav a {
-  color: var(--med-dark); 
+  color: var(--med-light); 
   text-decoration: none; 
-  margin-right: 20px; 
-  font-size: 1rem; 
+  margin-right: 50px; 
+  font-size: 1.5rem;
+  font-weight: bolder; 
 }

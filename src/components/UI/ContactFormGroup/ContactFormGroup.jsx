@@ -35,6 +35,10 @@ const ContactFormGroup = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    if (!name.trim() || !email.trim() || !message.trim() || emailError) {
+      alert('Some fields are missing, please complete the form.');
+      return 
+    }
 
     // Note: I'll need to fill different logic for handleSubmit once my application has a back end. For now it is just sending an alert to verify submission and resetting the fields to an empty string
     alert('Form submitted successfully!');
@@ -47,7 +51,7 @@ const ContactFormGroup = () => {
 
   return (
     <div>
-      <h2>Contact:</h2>
+      <h2>Contact</h2>
       <form onSubmit={handleSubmit}>
         <div>
           <h3>Name</h3>

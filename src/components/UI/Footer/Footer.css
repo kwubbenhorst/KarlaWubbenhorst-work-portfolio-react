@@ -1,0 +1,21 @@
+/* Import global.css where color and font variables are defined */
+@import '../../../global.css';
+
+/* Style for the footer container */
+footer {
+  background-color: var(--med-dark); 
+  height: 85px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 15px solid var(--med-light);
+}
+
+/* Style for the fontawesome icons */
+footer a {
+  color: var(--med-light); 
+  font-size: 2rem; 
+  margin: 0 15px; 
+  text-decoration: none; 
+}

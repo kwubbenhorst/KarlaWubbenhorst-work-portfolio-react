@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Macondo&family=Kaushan+Script&family=Karla:wght@400;700&display=swap');
+
+:root {
+  --light: #cad2c5;
+  --med-light: #84a98c;
+  --medium: #52796f;
+  --med-dark: #354f52;
+  --dark: #2f3e46;
+
+  --font-acme: 'Acme', sans-serif;
+  --font-macondo: 'Macondo', cursive;
+  --font-kaushan: 'Kaushan Script', cursive;
+  --font-karla: 'Karla', sans-serif;
+}
+
+body {
+    font-family: var(--font-karla);
+}
+
+h1, h2 {
+    font-family: var(--font-kaushan);
+}
+
+h3, p {
+    font-family: var(--font-karla);
+}
+
+a {
+    font-family: var(--font-acme);
+}
+
+
