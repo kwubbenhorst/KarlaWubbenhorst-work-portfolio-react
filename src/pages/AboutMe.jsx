@@ -3,7 +3,7 @@ import ProfileSection from '../components/UI/ProfileSection/ProfileSection';
 
 const AboutMe = () => {
   return (
-    <div>
+    <div className="main-content">
       <ProfileSection />
     </div>
   );

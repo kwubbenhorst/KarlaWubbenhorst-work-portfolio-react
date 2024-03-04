@@ -4,7 +4,7 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className='footer-container'>
       {/* Fontawesome Github, LinkedIn and Youtube icons sourced from react-icons library. Target blank opens the link in a new window, noopener noreferrer settings are for security/contra-phishing */}
       <a href="https://github.com/kwubbenhorst" target="_blank" rel="noopener noreferrer">
         <FaGithub />

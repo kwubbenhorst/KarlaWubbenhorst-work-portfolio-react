@@ -1,3 +1,4 @@
+import './ContactFormGroup.css';
 import React, { useState } from 'react';
 
 // The state variables name, email and message are created with the useState hook to hold the values of the input fields and text area. Initially they are set to an empty string.

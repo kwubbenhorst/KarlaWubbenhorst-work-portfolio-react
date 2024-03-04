@@ -3,8 +3,8 @@ import pdfPath from '../assets/WubbenhorstCV.pdf';
 const Resume = () => {
   
   return (
-    <div>
-      <h2>Resume:</h2>
+    <div className='main-content'>
+      <h2>Resume</h2>
       <a href={pdfPath} target="_blank" rel="noopener noreferrer">
         Open as downloadable pdf
       </a>
