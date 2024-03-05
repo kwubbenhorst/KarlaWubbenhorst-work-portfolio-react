@@ -1,0 +1,72 @@
+/* Import global.css where color and font variables are defined */
+@import '../global.css';
+
+.project-row {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+}
+
+.fabulously-full-stack-container {
+  background-color: var(--light);
+}
+
+.fresh-faced-front-ends-container {
+  background-color: var(--med-light); 
+}
+
+.bad-ass-back-ends-container {
+  background-color: var(--med-dark);
+}
+
+.nifty-node-cli-apps-container {
+  background-color: var(--medium); 
+}
+
+h2.fabulously-fs-title {
+  color: var(--medium)
+}
+
+h2.fresh-faced-title {
+  color: var(--med-dark);
+}
+
+h2.bad-ass-title {
+  color: var(--med-light);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h2.nifty-node-title {
+  color: var(--light);
+}
+
+.fabulously-full-stack-container,
+.fresh-faced-front-ends-container,
+.bad-ass-back-ends-container,
+.nifty-node-cli-apps-container {
+  display: grid;
+  grid-template-columns: 3fr 4fr 4fr;
+  gap: 10px;
+  width: 100vw;
+}
+
+h2.fabulously-fs-title,
+h2.fresh-faced-title,
+h2.bad-ass-title,
+h2.nifty-node-title {
+  margin-left: 5vw;
+  max-width: 43%;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .project-row {
+    flex-direction: column; 
+  }
+}
+
+
+
+
+

@@ -25,6 +25,11 @@ body {
     margin: 0 5%;
 }
 
+.main-content-portfolio-page {
+    margin: 0;
+
+}
+
 h1, h2 {
     font-family: var(--font-kaushan);
 }
@@ -44,5 +49,7 @@ a {
 .footer-container {
     width: 100vw;
 }
+
+
 
 
