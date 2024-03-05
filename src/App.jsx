@@ -13,15 +13,18 @@ const App = () => {
       <Header />
       <main>
         <Routes>
+          {/* Render AboutMe for the root path */}
           <Route path="/" element={<AboutMe />} />
           <Route
             path="/"
             element={
               <>
+              {/* Use Outlet for nested routes */}
                 <Outlet />
               </>
             }
           >
+            {/* Nested routes */}
             <Route path="/about" element={<AboutMe />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/contact" element={<Contact />} />

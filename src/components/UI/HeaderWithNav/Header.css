@@ -46,3 +46,9 @@ nav a {
   font-size: 1.5rem;
   font-weight: bolder; 
 }
+
+/* Style for the active navigation link */
+nav a.active {
+  color: var(--light); 
+  border-bottom: 3px solid var(--med-light); 
+}
