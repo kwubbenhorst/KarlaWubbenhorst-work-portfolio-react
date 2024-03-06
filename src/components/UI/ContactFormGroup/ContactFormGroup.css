@@ -1,3 +1,72 @@
 h2 {
     font-weight: bolder;
 }
+
+form input,
+form textarea {
+  width: 44%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px solid var(--medium);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-family: var(--font-acme);
+  font-size: 1.1rem;
+  color: var(--medium);
+  outline-color: var(--med-light);
+}
+
+form textarea {
+  margin-bottom: 15px;
+  min-height: 180px;
+}
+
+form button {
+  color: var(--light);
+  font-family: var(--font-acme);
+  font-size: 1.2rem;
+  border: var(--dark) solid 1px;
+}
+  
+form button:hover {
+  background-color: var(--med-dark);
+  color: var(--light);
+  border: var(--med-light) solid 2px;
+}
+
+form button:focus {
+  outline: none; 
+}
+  
+form button:focus-visible {
+  outline: none; 
+}
+  
+form p {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.req-field-msg {
+  margin-left: 18%;
+}
+
+.invalid-email-msg {
+  margin-left: 17%;
+}
+
+@media (max-width: 763px) {
+    form input,
+    form textarea {
+      max-width: 95%;
+    }
+}
+  
+
+
+  
+
+
+  
+  
+

@@ -16,17 +16,21 @@ const ContactFormGroup = () => {
   const [requiredFieldError, setRequiredFieldError] = useState('');
 
   const handleEmailChange = (e) => {
-    setEmail(e.target.value);
+    const value = e.target.value;
+    setEmail(value);
     // Regex to ensure a valid email format has been entered
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    setEmailError(emailPattern.test(e.target.value) ? '' : 'Invalid email address');
+    setEmailError(emailPattern.test(value) ? '' : 'Invalid email address');
   };
 
   const handleBlur = (field) => {
     if (field === 'name' && !name.trim()) {
       setRequiredFieldError('Name is required');
-    } else if (field === 'email' && !email.trim()) {
-      setRequiredFieldError('Email is required');
+    } else if (field === 'email') {
+      // Check for email validation only if the field is not focussed, otherwise it will present the invalid message as the person is typing
+      const value = email.trim();
+      setRequiredFieldError('');
+      setEmailError(value && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value) ? 'Invalid email address' : '');
     } else if (field === 'message' && !message.trim()) {
       setRequiredFieldError('Message is required');
     } else {
@@ -60,15 +64,17 @@ const ContactFormGroup = () => {
         </div>
         <div>
           <h3>Email Address</h3>
-          <input type="text" value={email} onChange={handleEmailChange} onBlur={() => handleBlur('email')} />
-          {emailError && <p>{emailError}</p>}
+          <input type="text" value={email} onChange={(e) => setEmail(e.target.value)} onBlur={() => setTimeout(() => handleBlur('email'), 0)}
+          onFocus={() => setEmailError('')} // Reset emailError when the field is focused
+          />
+          {emailError && <p className="invalid-email-msg">{emailError}</p>}
         </div>
         <div>
           <h3>Message</h3>
           <textarea value={message} onChange={(e) => setMessage(e.target.value)} onBlur={() => handleBlur('message')} />
         </div>
         <div>
-          {requiredFieldError && <p>{requiredFieldError}</p>}
+          {requiredFieldError && <p className="req-field-msg">{requiredFieldError}</p>}
           <button type="submit">Submit</button>
         </div>
       </form>

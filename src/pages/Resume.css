@@ -1,0 +1,17 @@
+.cv-download-link {
+    font-size: 1.3rem;
+    color: var(--med-dark);
+    
+}
+
+.cv-download-link:hover {
+    color: var(--med-light);
+}
+
+.cv-download-link-container {
+    margin-bottom: 25px;
+}
+
+
+
+ 

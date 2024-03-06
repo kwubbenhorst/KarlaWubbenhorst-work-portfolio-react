@@ -1,0 +1,59 @@
+.email-link {
+    color: var(--medium);
+}
+
+.email-link:hover {
+    color: var(--med-light);
+}
+
+.contact-by-email {
+    color: var(--med-dark);
+    margin-top: 30px;   
+}
+
+.contact-by-phone {
+    color: var(--med-dark);    
+}
+
+.main-contact {
+    position: relative;
+}
+
+.stones-pic {
+    position: absolute;
+    min-width: 50%;
+    box-sizing: border-box;
+    height: 106%;
+    margin: -25px -5vw 0px 55%;
+    border-left: 15px var(--med-light) solid;
+    border-right: 15px var(--med-light) solid;
+}
+
+.quote-container {
+    position: absolute;
+    width: 35%;
+    padding: 3px;
+    box-sizing: border-box;
+    border: 2px solid var(--medium);
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    font-family: var(--font-acme);
+    font-size: 1.1rem;
+    color: var(--medium);
+    height: 210px;
+    margin: 67vh 0 0px 63%;
+}
+
+.knuth-quote {
+    padding: 10px 0px;
+    margin-top: 10px;
+}
+
+ /* Media query for screens smaller than 768px width */
+ @media (max-width: 768px) {
+    .quote-container 
+    .knuth-quote {
+      display: none; 
+    }
+  }
