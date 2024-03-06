@@ -1,7 +1,6 @@
 .cv-download-link {
     font-size: 1.3rem;
-    color: var(--med-dark);
-    
+    color: var(--med-dark);   
 }
 
 .cv-download-link:hover {
@@ -11,6 +10,30 @@
 .cv-download-link-container {
     margin-bottom: 25px;
 }
+
+.proficiencies-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: var(--font-acme);
+}
+  
+.resume-column {
+    flex: 1 0 30%; 
+    margin-bottom: 20px;
+    font-size: larger;
+    margin: 21px;
+}
+  
+  .resume-column ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .resume-column ul li {
+    margin-bottom: 8px;
+  }
+  
 
 
 
