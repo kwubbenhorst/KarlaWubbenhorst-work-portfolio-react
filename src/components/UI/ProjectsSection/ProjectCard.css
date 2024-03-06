@@ -28,7 +28,7 @@
   .project-details h1,
   .project-details h2 {
     margin: 0;
-    font-size: 1rem;
+    margin-left: 5px;
     text-decoration: none;
     color: var(--light);
   }
@@ -37,6 +37,25 @@
     color: var(--light);
     text-decoration: none;
     display: block;
+  }
+
+  .project-details a:hover {
+    color: var(--med-light);
+    text-decoration: none;
+    display: block;
+  }
+
+  .project-details h2 {
+    margin-right: 10px;
+  }
+
+  .project-title {
+    font-size: 1.3rem;
+    font-weight: bolder;
+  }
+
+  .technologies-byline {
+    font-size: 1rem;
   }
 
   /* Media query for screens smaller than 768px width */
