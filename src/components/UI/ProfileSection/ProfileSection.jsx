@@ -7,7 +7,7 @@ const ProfileSection = () => {
     <div className='about-me-container' >
       <h2>About Me</h2>
         <div className='content-row'>
-        <img className='profile-pic' src={process.env.PUBLIC_URL + '/src/assets/images/karla1.png'} alt="Head profile picture of Karla Wubbenhorst" />
+        <img className='profile-pic' src="/src/assets/images/karla.png" alt="Head profile picture of Karla Wubbenhorst" />
           <p>
             Full stack development is quite a career swerve from what I was doing before: pastoral ministry. 
             During my 10 years of post-secondary education in classics and divinity, my 4 years of university teaching
