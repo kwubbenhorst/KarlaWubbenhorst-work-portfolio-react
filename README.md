@@ -23,6 +23,8 @@ Although the specs for this project only required six projects in the showcase I
 
 Another learning curve in this build was its eventual deployment with Netlify. The application is ready to be seen and interacted with by prospective employers on the world wide web. Here is the deployment URL:
 
+https://65e93e1d4aa47e9307a9ed34--karla-wubbenhorst-work-portfolio.netlify.app/about
+
 ## Installation
 N/A
 
