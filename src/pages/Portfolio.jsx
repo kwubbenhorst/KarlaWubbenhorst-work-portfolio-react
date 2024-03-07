@@ -21,14 +21,14 @@ const Portfolio = () => {
             title="Brimloft: Ecommerce/Hat Store"
             deployLink="https://brim-loft-22a58ce3b819.herokuapp.com/"
             githubLink="https://github.com/kwubbenhorst/brim-loft"
-            image="../../src/assets/images/brim-loft-screenshot.png"
+            image="https://res.cloudinary.com/dqtpaispt/image/upload/v1709794167/brim-loft-screenshot_qljnz0.png"
             technologies="HTML, CSS, JavaScript, Handlebars, Node.js, Express, MySQL, Sequelize, bcrypt, Session, Session Storage"
           />
           <ProjectCard
             title="Offline Text Editor: PWA Application"
             deployLink="https://off-line-text-editor-2797b90d319f.herokuapp.com/"
             githubLink="https://github.com/kwubbenhorst/offline-text-editor"
-            image="../../src/assets/images/offline-text-editor-screenshot.png"
+            image="https://res.cloudinary.com/dqtpaispt/image/upload/v1709794167/offline-text-editor-screenshot_ppzkyc.png"
             technologies="HTML, CSS, JavaScript(ES6+), Node.js, Express, IndexedDB, Webpack, Babel, Workbox, ServiceWorker, concurrently"
           />
         </div>
@@ -37,14 +37,14 @@ const Portfolio = () => {
             title="Note Taker"
             deployLink="https://mighty-peak-97705-5192cd0d820f.herokuapp.com/"
             githubLink="https://github.com/kwubbenhorst/"
-            image="../../src/assets/images/note-taker-screenshot.png"
+            image="https://res.cloudinary.com/dqtpaispt/image/upload/v1709794167/note-taker-screenshot_r6p2mu.png"
             technologies="HTML, CSS, JavaScript, Node.js, Express.js, REST, fs module, db.json" 
           />
           <ProjectCard
             title="My Professional Portfolio"
             deployLink="#"
             githubLink="https://github.com/kwubbenhorst/KarlaWubbenhorst-work-portfolio-react"
-            image="../../src/assets/images/professional-portfolio-screenshot.png"
+            image="https://res.cloudinary.com/dqtpaispt/image/upload/v1709794168/professional-portfolio-screenshot_rrweti.png"
             technologies="HTML, CSS, JavaScript, Node.js, React, Vite, React DOM, React-router-DOM, React icons, Font Awesome, Google Fonts"
           />
         </div>
@@ -58,14 +58,14 @@ const Portfolio = () => {
             title="Coding Quiz"
             deployLink="https://kwubbenhorst.github.io/coding-assessment-quiz/"
             githubLink="https://github.com/kwubbenhorst/coding-assessment-quiz"
-            image="../../src/assets/images/coding-assessment-quiz-screenshot.png"
+            image="https://res.cloudinary.com/dqtpaispt/image/upload/v1709794168/coding-assessment-quiz-screenshot_gyqxne.png"
             technologies="HTML, CSS, JavaScript, Local Storage, Bootstrap"
           />
           <ProjectCard
             title="Workday Scheduler"
             deployLink="https://kwubbenhorst.github.io/work-day-scheduler/"
             githubLink="https://github.com/kwubbenhorst/work-day-scheduler"
-            image="../../src/assets/images/workday-scheduler-screenshot.png"
+            image="https://res.cloudinary.com/dqtpaispt/image/upload/v1709794170/workday-scheduler-screenshot_aqlr2q.png"
             technologies="HTML, CSS, JavaScript, Bootstrap, jQuery, Font Awesome, Google Fonts, day.js"
           />
         </div>
@@ -74,14 +74,14 @@ const Portfolio = () => {
             title="Weather Dashboard"
             deployLink="https://kwubbenhorst.github.io/weather-dashboard/"
             githubLink="https://github.com/kwubbenhorst/weather-dashboard"
-            image="../../src/assets/images/weather-dashboard-screenshot.png"
+            image="https://res.cloudinary.com/dqtpaispt/image/upload/v1709794170/weather-dashboard-screenshot_d0xywo.png"
             technologies="HTML, CSS, Bootstrap, JavaScript, jQuery, Google Fonts, Open Weather Map API, Timezone DB API, day.js" 
           />
           <ProjectCard
             title="Kitchen Elevation"
             deployLink="https://kwubbenhorst.github.io/kitchen_elevation/"
             githubLink="https://github.com/kwubbenhorst/kitchen_elevation"
-            image="../../src/assets/images/kitchen-elevation-screenshot.png"
+            image="https://res.cloudinary.com/dqtpaispt/image/upload/v1709794167/kitchen-elevation-screenshot_x8woab.png"
             technologies="HTML, CSS, JavaScript, Bootstrap, Google Fonts, Local Storage, Spoonacular API, CocktailDB API"
           />
         </div>
@@ -94,7 +94,7 @@ const Portfolio = () => {
             title="Thought Share API: Social Netwk backend"
             deployLink="https://drive.google.com/file/d/14F-yLkn3o3_rlxD4BSp84KkrM-qJ2VvU/view?usp=drive_link"
             githubLink="https://github.com/kwubbenhorst/thought-share-API"
-            image="../../src/assets/images/thought-share-api-screenshot.png"
+            image="https://res.cloudinary.com/dqtpaispt/image/upload/v1709794170/thought-share-api-screenshot_bpauqt.png"
             technologies="Node.js, Express, REST, MongoDB, Mongoose, moment.js"
             hasWalkthroughVideo={true}
           />
@@ -102,7 +102,7 @@ const Portfolio = () => {
             title="Clothes and Music EStore"
             deployLink="https://drive.google.com/file/d/1aumZkV58yrni1EIrGTqx4hHYNj6gBZ03/view?usp=drive_link"
             githubLink="https://github.com/kwubbenhorst/clothes-and-music-estore"
-            image="../../src/assets/images/clothes-and-music-estore-screenshot.png"
+            image="https://res.cloudinary.com/dqtpaispt/image/upload/v1709794167/clothes-and-music-estore-screenshot_xondzy.png"
             technologies="Node.js, Express, REST, MySQL, Sequelize"
             hasWalkthroughVideo={true}
           /> 
@@ -115,7 +115,7 @@ const Portfolio = () => {
             title="SVG Logo Maker"
             deployLink="https://drive.google.com/file/d/1sFQZ27DPwe7CNRPli-_B7LwKHaMQNfgW/view?usp=drive_link"
             githubLink="https://github.com/kwubbenhorst/SVG-logo-maker"
-            image="../../src/assets/images/svg-logo-maker-screenshot.png"
+            image="https://res.cloudinary.com/dqtpaispt/image/upload/v1709794170/svg-logo-maker-screenshot_xlazcs.png"
             technologies="Node.js, Inquirer, Jest, ESM (ECMAScript Modules)"
             hasWalkthroughVideo={true}
           />
@@ -123,7 +123,7 @@ const Portfolio = () => {
             title="README Generator"
             deployLink="https://drive.google.com/file/d/1ce1wGR04fKJbhYsFqcbmykHqSks9MPMr/view?usp=drive_link"
             githubLink="https://github.com/kwubbenhorst/README-generator"
-            image="../../src/assets/images/readme-generator-screenshot.png"
+            image="https://res.cloudinary.com/dqtpaispt/image/upload/v1709794168/readme-generator-screenshot_becheq.png"
             technologies="Node.js, Inquirer, fs module"
             hasWalkthroughVideo={true}
           />

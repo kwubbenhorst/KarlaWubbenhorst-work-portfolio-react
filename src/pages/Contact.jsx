@@ -7,7 +7,7 @@ import ContactFormGroup from '../components/UI/ContactFormGroup/ContactFormGroup
 const Contact = () => {
   return (
     <div className='main-content main-contact'>
-      <img className='stones-pic' src="src/assets/images/stones2.jpg" alt="Picture of beach pebbles" />
+      <img className='stones-pic' src="https://res.cloudinary.com/dqtpaispt/image/upload/v1709794168/stones2_d30jhh.jpg" alt="Picture of beach pebbles" />
       <div className='quote-container'>
       <p className='knuth-quote'>People think that computer science is the art of geniuses but the reality is the opposite, just many people doing things that build on each other, like a wall of mini stones.&nbsp;&nbsp;&nbsp;~ Donald Knuth</p>
       </div>
