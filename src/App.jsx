@@ -1,3 +1,8 @@
+// This file, App.jsx, serves as the main entry point for the React application. It sets up the overall structure of the application
+// by defining the routing using React Router. Sometimes the routing is done in main.jsx, but I have made the decision to do it here. 
+// The application consists of different pages, each represented by a component.
+// The pages AboutMe, Portfolio, Contact, and Resume are rendered based on the specified routes.
+
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Outlet } from 'react-router-dom';
 import Header from './components/UI/HeaderWithNav/Header';

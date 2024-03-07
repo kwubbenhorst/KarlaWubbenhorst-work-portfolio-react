@@ -1,3 +1,4 @@
+// This file contains code for the Profile Section component. Basically the component is the whole of the AboutMe page. It is comprised of an h2, an img and a p blurb.
 import React from 'react';
 import './ProfileSection.css';
 

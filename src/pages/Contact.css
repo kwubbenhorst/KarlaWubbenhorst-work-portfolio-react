@@ -50,10 +50,18 @@
     margin-top: 10px;
 }
 
- /* Media query for screens smaller than 768px width */
+ /* Media query for screens smaller than 768px width 
  @media (max-width: 768px) {
-    .quote-container 
+    .quote-container {
+      display: none;
+    }
+    } 
     .knuth-quote {
       display: none; 
     }
-  }
+    .stones-pic {
+      display: none;
+     */
+    
+
+    

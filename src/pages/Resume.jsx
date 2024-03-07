@@ -1,3 +1,5 @@
+// This file is responsible for rendering the main-content section of the resume page.  It includes a page heading, a link to the downloadable pdf of my CV and three uls arranged as columns highlighting from my resume my technical proficiencies and soft skills.
+// The lis are hardcoded here in this file.
 import React from 'react';
 import pdfPath from '../assets/WubbenhorstCV.pdf';
 import './Resume.css'; 

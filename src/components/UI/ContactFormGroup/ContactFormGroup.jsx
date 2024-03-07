@@ -1,3 +1,4 @@
+//This file contains code for the Contact Form component of the Contact page. 
 import './ContactFormGroup.css';
 import React, { useState } from 'react';
 
@@ -15,6 +16,7 @@ const ContactFormGroup = () => {
   const [emailError, setEmailError] = useState('');
   const [requiredFieldError, setRequiredFieldError] = useState('');
 
+  // Function to handle the 'onChange' event for the email input field. It updates the email state and validates the entered email using a regex.
   const handleEmailChange = (e) => {
     const value = e.target.value;
     setEmail(value);
@@ -23,6 +25,7 @@ const ContactFormGroup = () => {
     setEmailError(emailPattern.test(value) ? '' : 'Invalid email address');
   };
 
+  // Function to handle the onBlur event for the input fields. It checks for empty fields and performs email validation when the email field loses focus
   const handleBlur = (field) => {
     if (field === 'name' && !name.trim()) {
       setRequiredFieldError('Name is required');
@@ -38,6 +41,7 @@ const ContactFormGroup = () => {
     }
   };
 
+  // Function to handle the form submission. It prevents default, checks for required fields and displays an alert if any field is missing or if email is invalid. Although the inputs do not really get sent to the back end, an alert signals a successful submission if all fields are filled and if a valid email has been entered.
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!name.trim() || !email.trim() || !message.trim() || emailError) {
@@ -53,7 +57,8 @@ const ContactFormGroup = () => {
     setEmail('');
     setMessage('');
   };
-
+  
+  // This component's render method returns jsx representing the structure of the contact form, with input fields for name, email and message and handlers for onChange, onBlur and onSubmit events. 
   return (
     <div>
       <h2>Contact</h2>
@@ -64,7 +69,7 @@ const ContactFormGroup = () => {
         </div>
         <div>
           <h3>Email Address</h3>
-          <input type="text" value={email} onChange={(e) => setEmail(e.target.value)} onBlur={() => setTimeout(() => handleBlur('email'), 0)}
+          <input type="text" value={email} onChange={(e) => setEmail(e.target.value)} onBlur={() => setTimeout(() => handleBlur('email'), 0)} //timeOut is so handleBlur function is not called immediately when the user clicks outside the input field -- helps prevent unnecessary validations while user is still typing.
           onFocus={() => setEmailError('')} // Reset emailError when the field is focused
           />
           {emailError && <p className="invalid-email-msg">{emailError}</p>}

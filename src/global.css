@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Macondo&family=Kaushan+Script&family=Karla:wght@400;700&display=swap');
+/* In this global.css file the color and font variables are established which will apply across all the pages. The import of the custom fonts from googlefonts is done here. Margins for the main section and width for the header and footer are established here
+There are also some stylings in index.css, a file given to the project with the installation of vite, which apply globally and which I had to adjust to fit with the custom colour palette. They apply to things like hover and focus effects on links and buttons    */
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Kaushan+Script:wght@400;700&display=swap');
 
 :root {
   --light: #cad2c5;
@@ -8,9 +10,7 @@
   --dark: #2f3e46;
 
   --font-acme: 'Acme', sans-serif;
-  --font-macondo: 'Macondo', cursive;
   --font-kaushan: 'Kaushan Script', cursive;
-  --font-karla: 'Karla', sans-serif;
 
 }
 

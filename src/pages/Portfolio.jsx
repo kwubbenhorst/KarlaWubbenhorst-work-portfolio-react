@@ -1,3 +1,11 @@
+// This file, Portfolio.jsx, is a React component that represents the Portfolio page of the application.
+// It is responsible for rendering 12 instances of the ProjectCard component and it organizes these cards in four page sections (the different technology stacks).
+// The ProjectCard component generates each individual project card, and the data for each card is passed through props.
+// The props given definite values here in this file are passed to ProjectCard.jsx to customize each card's content, including
+// title, deployment link, GitHub link, image, whether it has a walkthrough video, and the technologies used.
+// The stylesheet attached to this page styles the page layout and sections and section heading elements.
+// The stylesheet attached to ProjectCard.jsx contains all the styling needed for the card components.
+
 import React from 'react';
 import ProjectCard from '../components/UI/ProjectsSection/ProjectCard.jsx';
 import './Portfolio.css';

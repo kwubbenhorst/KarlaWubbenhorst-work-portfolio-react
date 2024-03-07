@@ -1,3 +1,5 @@
+// This file renders the main-content section of the Contact page. It imports the ContactFormGroup component from a separate file in the components/UI folder, and adds an email link, a hardcoded phone number and an image and quote to fill up the blank space at the right of the page.
+// Validations on the form inputs and submission are handled in ContactFormGroup.jsx
 import './Contact.css';
 import React from 'react';
 import ContactFormGroup from '../components/UI/ContactFormGroup/ContactFormGroup';

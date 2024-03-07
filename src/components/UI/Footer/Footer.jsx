@@ -1,3 +1,4 @@
+// This file contains code for the footer component which appears on all pages of the application. The footer just contains three icons that link to Github, LinkedIn and Youtube 
 import React from 'react';
 import { FaGithub, FaLinkedin, FaYoutube } from 'react-icons/fa';
 import './Footer.css';

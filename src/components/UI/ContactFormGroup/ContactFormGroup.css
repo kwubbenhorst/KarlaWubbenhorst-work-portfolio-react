@@ -56,9 +56,11 @@ form p {
 }
 
 @media (max-width: 763px) {
-    form input,
+    form input {
+      width: 100%;
+    }
     form textarea {
-      max-width: 95%;
+      width: 100%;
     }
 }
   
