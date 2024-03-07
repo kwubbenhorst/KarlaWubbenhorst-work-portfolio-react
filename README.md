@@ -29,32 +29,19 @@ N/A
 ## Usage
 Upon page load the user is greeted by the About Me page. The highlighting of the current page in the nav links allows for no confusion that this, besides being the landing page, is also one of the four sections of the project. The About Me page includes a picture of the developer and a couple of paragraphs telling the story of my journey into web development thus far.
 
-![about-page-screenshot](https://github.com/kwubbenhorst/KarlaWubbenhorst-work-portfolio-react/assets/140316693/e05403a8-8938-4ff2-b899-e42c023fca47)
-
+![about-me-page-screenshot](https://github.com/kwubbenhorst/KarlaWubbenhorst-work-portfolio-react/assets/140316693/0490c4f1-a1d1-4f04-8db2-c0468edf47aa)
 
  At the portfolio page the user can see a gallery of 12 cards, representing 12 projects. Clicking on the card title will take the user to the URL for deployed projects or to the walk-though video for backend work. The subtitle which references the various technologies used, when clicked, links to the github repo page with the project code and version history. The image on the card is a screenshot of the app. 
 
-![portfolio-page-1-screenshot](https://github.com/kwubbenhorst/KarlaWubbenhorst-work-portfolio-react/assets/140316693/1457062f-1857-47d9-be08-84694feeedf2)
-
-
-![portfolio-page-2-screenshot](https://github.com/kwubbenhorst/KarlaWubbenhorst-work-portfolio-react/assets/140316693/91ef48a0-52fa-4881-abce-4e56adf91cce)
-
-
-![portfolio-page-3-screenshot](https://github.com/kwubbenhorst/KarlaWubbenhorst-work-portfolio-react/assets/140316693/144e6c85-1ff2-497b-90fd-c230678804f6)
-
+![portfolio-page-screenshot](https://github.com/kwubbenhorst/KarlaWubbenhorst-work-portfolio-react/assets/140316693/7800f65d-67d7-4813-ac0c-c3afc330bb64)
 
 At the Contact page, the user can complete a form with their name, email and a message to me. Clicking the submit button does not send the form off anywhere because a backend server is not yet connected, so I have simulated what would happen on a successful submit in terms of verification and button animation. The logic behind this page interacts with the inputs, using State and sends messages and alerts back if certain required fields are not completed or if an invalid email is entered. 
 
-![contact-page-1-screenshot](https://github.com/kwubbenhorst/KarlaWubbenhorst-work-portfolio-react/assets/140316693/bd00f980-9556-4cb2-b68d-d6b174c1f1fa)
-
-
-![contact-page-2-screenshot](https://github.com/kwubbenhorst/KarlaWubbenhorst-work-portfolio-react/assets/140316693/0f180ce8-b798-4df1-ac35-8875cf785219)
-
+![contact-page-screenshot](https://github.com/kwubbenhorst/KarlaWubbenhorst-work-portfolio-react/assets/140316693/f8ed0a66-eff2-454e-aeea-fd5d3a959d18)
 
 At the resume page, there is a link which will open the full copy of my CV as a downloadable pdf as well as a hardcoded unordered list of my technical proficiencies and soft skills in a three column layout. 
 
-
-![resume-page-screenshot](https://github.com/kwubbenhorst/KarlaWubbenhorst-work-portfolio-react/assets/140316693/b4e3e6cd-104f-48fd-84dd-cfd6aee22517)
+![resume-page-screenshot](https://github.com/kwubbenhorst/KarlaWubbenhorst-work-portfolio-react/assets/140316693/c37a6d98-3cf6-4190-92b5-5f132779ec47)
 
 
 The page simulation is achieved by routing to a different main section for each distinct endpoint, while the navbar in the header that also displays my name and the footer with links to my web presence on github, linked in and youtube, remain at the top and the bottom throughout.
