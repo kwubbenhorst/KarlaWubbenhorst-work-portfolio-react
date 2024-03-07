@@ -25,6 +25,10 @@ Another learning curve in this build was its eventual deployment with Netlify. T
 
 https://karla-wubbenhorst-work-portfolio.netlify.app
 
+A version has also been deployed with github pages:
+
+https://kwubbenhorst.github.io/KW-work-portfolio-react/
+
 ## Installation
 N/A
 
